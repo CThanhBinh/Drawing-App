@@ -1,0 +1,51 @@
+body{
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-image: url('./img.jpg');
+    background-size: cover;
+}
+#canvas{
+    display: block;
+    background-color: #fff;
+}
+.size-board{
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    background-color: rebeccapurple;
+    position: relative;
+}
+.size-board>* {
+    margin-left: 1rem;
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+}
+.btn-minus{
+    margin-left: 3rem;
+}
+.current-size{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    text-align: center;
+    font-size: 1.5em;
+}
+.color{
+    margin-left: 3em;
+    border: none;
+    width: 3rem;
+    height: 3rem;
+}
+.clear{
+    position: absolute;
+    right: 3em;
+}
+.btn:active{
+    transform: scale(0.9);
+}
